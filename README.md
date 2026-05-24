@@ -304,17 +304,11 @@ Then el resultado debe ser DEAD
 ### Cobertura JaCoCo
 
 Reporte generado en `target/site/jacoco/index.html` tras ejecutar:
+<img width="2551" height="397" alt="imagen" src="https://github.com/user-attachments/assets/5237a6b1-86ba-4596-bf78-c3660e2d47d2" />
 
 ```bash
 mvn clean test
 ```
-
-| Paquete | Instrucciones cubiertas | Ramas cubiertas | Complejidad | Líneas | Métodos | Clases |
-|---------|------------------------|-----------------|-------------|--------|---------|--------|
-| `edu.unisabana.tyvs.tdd` | 0% | n/a | 1/1 | 2/2 | 1/1 | 1/1 |
-| `edu.unisabana.tyvs.tdd.domain.model` | 96% | n/a | 7/8 | 21/22 | 7/8 | 3/3 |
-| `edu.unisabana.tyvs.tdd.domain.service` | 100% | 100% | 12/12 | 19/19 | 2/2 | 1/1 |
-| **Total** | **94%** | **100%** | **19/21** | **40/43** | **9/11** | **4/5** |
 
 > ✅ Cobertura global: **94%** — supera el umbral mínimo del 80%.
 
